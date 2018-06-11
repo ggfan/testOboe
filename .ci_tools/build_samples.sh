@@ -10,11 +10,10 @@ declare projects=(
     samples
 )
 
-for d in "${projects[@]}"; do 
-    pushd ${REPO_ROOT_DIR}/${d}
-    ./gradlew  -q clean
-    ./gradlew -q assembleDebug
-    popd
+for d in "${projects[@]}"; do
+    pushd ${REPO_ROOT_DIR}/${d} >/dev/null
+    TERM=dumb ./gradlew  -q clean assembleDebug
+    popd >/dev/null
 done
 
 

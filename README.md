@@ -1,4 +1,4 @@
-# Oboe
+# Oboe [![Build Status](https://travis-ci.org/ggfan/testOboe.svg?branch=master)](https://travis-ci.org/ggfan/testOboe)
 **Oboe is currently in developer preview.**
 
 Oboe is a C++ library which makes it easy to build high-performance audio apps on Android. It was created primarily to allow developers to target a simplified API that works across multiple API levels back to API level 16 (Jelly Bean).
