@@ -35,7 +35,7 @@ void PrintAudioStreamInfo(const oboe::AudioStream *stream) {
     LOGI("API type: %s", oboe::convertToText(stream->getAudioApi()));
     LOGI("BufferCapacity: %d", stream->getBufferCapacityInFrames());
     LOGI("BufferSize: %d", stream->getBufferSizeInFrames());
-    LOGI("FramesPerBurst: %d", const_cast<oboe::AudioStream* >(stream)->getFramesPerBurst());
+    LOGI("FramesPerBurst: %d", stream->getFramesPerBurst());
     LOGI("XRunCount: %d", stream->getXRunCount());
     LOGI("SampleRate: %d", stream->getSampleRate());
     LOGI("SamplesPerFrame: %d", stream->getChannelCount());

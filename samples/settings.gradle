@@ -19,4 +19,5 @@ include ':audio-device'
 include ':hello-oboe'
 include ':RhythmGame'
 include ':MegaDrone'
+include ':echo'
 
